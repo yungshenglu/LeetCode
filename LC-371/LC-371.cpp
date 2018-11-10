@@ -1,6 +1,6 @@
 class Solution {
 public:
-    /*
+    /**
      * Concepts:
      * Return the result after calculation
      */

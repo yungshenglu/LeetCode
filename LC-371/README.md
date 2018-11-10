@@ -21,3 +21,5 @@ Output: 1
 ## Solutions
 
 1. Return the result after calculation
+    * Time complexity: $O(1)$
+    * Space complexity: $O(1)$
