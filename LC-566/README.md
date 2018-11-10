@@ -47,3 +47,13 @@ There is no way to reshape a 2 * 2 matrix to a 2 * 4 matrix. So output the origi
 
 * The height and width of the given matrix is in range $[1, 100]$.
 * The given `r` and `c` are all positive.
+
+---
+## Solutions
+
+1. Use queue store all elements in the matrix and reshape
+    * Time complexity: $O(m \times n)$
+    * Space complexity: $O(m \times n)$
+2. Use division and modules to find out the number of columne and row in the reshaped matrix
+    * Time complexity: $O(m \times n)$
+    * Space complexity: $O(m \times n)$

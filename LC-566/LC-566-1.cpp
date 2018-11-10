@@ -11,14 +11,12 @@ public:
      * 2. Reshape the matrix with element in the queue
      */
     vector< vector<int> > matrixReshape(vector< vector<int> >& nums, int r, int c) {
-        int orig_r = nums.size(), orig_c = nums[0].size(), orig_size = orig_r * orig_c;
-        
-        if (r * c != orig_size)
+        if (nums.size() == 0 || r * c != nums.size() * nums[0].size())
             return nums;
         else {
             queue<int> que;
-            for (int i = 0; i < orig_r; ++i) {
-                for (int j = 0; j < orig_c; ++j)
+            for (int i = 0; i < nums.size(); ++i) {
+                for (int j = 0; j < nums[0].size(); ++j)
                     que.push(nums[i][j]);
             }
             
