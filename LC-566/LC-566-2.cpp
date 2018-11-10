@@ -5,7 +5,7 @@ using namespace std;
 
 class Solution {
 public:
-    /*
+    /**
      * Concepts:
      * 1. Use division to find out the number of row after reshaping
      * 2. Use modules to find out the number of column after reshaping

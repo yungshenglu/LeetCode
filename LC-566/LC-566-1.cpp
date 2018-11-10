@@ -5,7 +5,7 @@ using namespace std;
 
 class Solution {
 public:
-    /*
+    /**
      * Concepts:
      * 1. Create a queue to store all elements in the matrix
      * 2. Reshape the matrix with element in the queue
