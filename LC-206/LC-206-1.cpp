@@ -1,3 +1,5 @@
+using namespace std;
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -6,6 +8,7 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+
 class Solution {
 public:
     /**
