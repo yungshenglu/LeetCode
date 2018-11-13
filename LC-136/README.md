@@ -25,6 +25,9 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 ---
 ## Solutions
 
-1. Use XOR in bit operation to find out the different bit
+1. Math method: $2 \times (a + b + c) - (a + a + b + b + c) = c$
+    * Time complexity: $O(n)$
+    * Space complexity: $O(n)$
+2. Use XOR in bit operation to find out the different bit
     * Time complexity: $O(n)$
     * Space complexity: $O(1)$
