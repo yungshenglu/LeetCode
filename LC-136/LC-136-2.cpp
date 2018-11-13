@@ -15,9 +15,9 @@ public:
      *     a XOR b XOR a = (a XOR a) XOR b = 0 XOR b = b
      */
     int singleNumber(vector<int>& nums) {
-        int a = 0;
+        int bit = 0;
         for (int i = 0; i < nums.size(); ++i)
-            a ^= nums[i];
-        return a;
+            bit ^= nums[i];
+        return bit;
     }
 };
