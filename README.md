@@ -1,6 +1,6 @@
 # LeetCode Online Judge
 
-[![License](https://img.shields.io/badge/Licence-GPL3.0-blue.svg?&longCache=true&style=for-the-badge)
+![License](https://img.shields.io/badge/Licence-GPL3.0-blue.svg?&longCache=true&style=for-the-badge)
 
 This repository is my personal acceptance problems record for [LeetCode](https://leetcode.com/problemset/all/). If you are interested in this repository or have any quesiton, please feel free to contact with me.
 
@@ -18,7 +18,7 @@ To access this repository more easily, the following plugins is recommended to i
 ---
 ## Contributors
 
-* [Yung-Sheng Lu](https://github.com/yungshenglu)
+* [David Lu](https://github.com/yungshenglu)
 
 ---
 ## License
