@@ -5,7 +5,7 @@ using namespace std;
 class Solution {
 public:
     /**
-     * Concepts:
+     * Concepts: 
      * Naive Approach
      */
     int numJewelsInStones(string J, string S) {
