@@ -30,6 +30,6 @@ Output: "alph&"
 ---
 ## Solutions
 
-1. Naive Method
+1. Naive Approach
     * Time complexity: $O(n)$
     * Space complexity: $O(1)$

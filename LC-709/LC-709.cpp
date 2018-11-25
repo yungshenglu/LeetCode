@@ -4,7 +4,8 @@ using namespace std;
 
 class Solution {
     /**
-     * Concepts: Naive Method
+     * Concepts: 
+     * Naive Approach
      */
 public:
     string toLowerCase(string str) {
