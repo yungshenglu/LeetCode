@@ -4,6 +4,11 @@ using namespace std;
 
 class Solution {
 public:
+    /**
+     * Concepts: Naive Approach
+     * 1. Get each word in the string trimming by space
+     * 2. Reverse each word and append into the result
+     */
     string reverseWords(string str) {
         string result = "", word = "";
         for (int i = 0; i < str.length(); ++i) {
