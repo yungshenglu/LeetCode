@@ -22,4 +22,4 @@ Output: "amanaP :lanac a ,nalp a ,nam A"
 
 1. Naive Approach
     * Time complexity: $O(n)$
-    * Space complexity: $O(1)$
+    * Space complexity: $O(n)$
