@@ -36,3 +36,6 @@ Since the list has two middle nodes with values 3 and 4, we return the second on
 1. Output to Array
     * Time complexity: $O(n)$
     * Space complexity: $O(n)$
+2. Fast and Slow Nodes
+    * Time complexity: $O(1)$
+    * Space complexity: $O(1)$
