@@ -30,13 +30,15 @@ Explanation: 14 is not ugly since it includes another prime factor 7.
 ```
 Input: 25
 Output: true
-Explanation: 25 = 5 × 5
+Explanation:
+25 = 5 × 5
 ```
 
 ```
 Input: -2
 Output: false
-Explanation: -2 is not ugly since it must be positive
+Explanation:
+-2 is not ugly since it must be positive
 ```
 
 ---
