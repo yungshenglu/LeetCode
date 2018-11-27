@@ -5,6 +5,7 @@
 using namespace std;
 
 class Solution {
+public:
     /**
      * Concepts: Canonical Form
      * 1. Use set to store the unique email address
@@ -14,7 +15,6 @@ class Solution {
      * 4. Insert the final address combined with local and domain
      * 5. The size of the set will be the number of unique address
      */
-public:
     int numUniqueEmails(vector<string>& emails) {
         if (emails.size() == 0)
             return 0;
