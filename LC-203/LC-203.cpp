@@ -12,7 +12,7 @@ struct ListNode {
 class Solution {
 public:
     /**
-     * Concepts:
+     * Concepts: Naive Approach
      * 1. Create an fake node and add in front of the head
      * 2. Find out the value of node is identical to the input value and remove it
      * 3. Consider whether the node with the same value is the first node in the list 
