@@ -3,10 +3,10 @@
 using namespace std;
 
 class Solution {
+public:
     /**
      * Concepts: Copy Directly
      */
-public:
     vector< vector<int> > transpose(vector< vector<int> >& A) {
         vector< vector<int> > result;
         for (int j = 0; j < A[0].size(); ++j) {

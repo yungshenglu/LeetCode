@@ -13,6 +13,7 @@ public:
     bool isMonotonic(vector<int>& A) {
         return isIncreasing(A) || isDecreasing(A);
     }
+    
 private:
     bool isIncreasing(vector<int>& A) {
         for (int i = 0; i < A.size() - 1; ++i) {

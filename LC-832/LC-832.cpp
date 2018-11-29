@@ -3,12 +3,12 @@
 using namespace std;
 
 class Solution {
+public:
     /**
      * Concepts: Naive Approach
      * 1. Use floor division to iterate each row in the image
      * 2. Use XOR 1 to flip each pixel in the row
      */
-public:
     vector< vector<int> > flipAndInvertImage(vector< vector<int> >& A) {
         int c = A[0].size();
         for (int i = 0; i < A.size(); ++i) {
