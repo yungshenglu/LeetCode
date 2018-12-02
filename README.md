@@ -9,6 +9,17 @@ Each problem are placed in its folder which is named by the ID of the problem. T
 * `LC-000.cpp` - My solution for this problem. Some of problem may have more than one solution and be named as `LC-000-1.cpp`, `LC-000-2.cpp` and so on respectively.
 
 ---
+## About Tutorials
+
+The directory `tutorials/` is for the exercise of the learning on LeetCode. The following are directory under `tutorials/` is my submission of these exercies.
+* Array and String (`array_and_string/`)
+    * Introduction to Array (`introduction_to_array/`)
+    * Introduction to 2D Array (`introduction_to_2d_array/`)
+    * Introduction to String (`introduction_to_string/`)
+    * Two-Pointer Technique (`two-pointer_technique/`)
+    * Conclusion (`conclusion/`)
+
+---
 ## Useful Plugins
 
 To access this repository more easily, the following plugins is recommended to install. Notice that the following plugins are for **Google Chrome** only.
