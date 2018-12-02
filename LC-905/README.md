@@ -27,3 +27,6 @@ The outputs [4,2,3,1], [2,4,1,3], and [4,2,1,3] would also be accepted.
 1. Two-pass Approach
     * Time complexity: $O(n)$
     * Space complexity: $O(n)$
+2. In-place Approach with Quick sorting
+    * Time complexity: $O(n)$
+    * Space complexity: $O(1)$
