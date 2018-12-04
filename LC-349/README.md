@@ -27,5 +27,8 @@ Output: [9,4]
 ## Solutions
 
 1. Use `std::set_intersection`
-    * Time complexity: $O(n^2)$
+    * Time complexity: $O(n\log{n})$
+    * Space complexity: $O(n)$
+2. Hash table
+    * Time complexity: $O(n)$
     * Space complexity: $O(n)$
