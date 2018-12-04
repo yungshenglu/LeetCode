@@ -22,7 +22,7 @@ The directory `tutorials/` is for the exercise of the learning on LeetCode. The 
 ---
 ## Useful Plugins
 
-To access this repository more easily, the following plugins is recommended to install. Notice that the following plugins are for **Google Chrome** only.
+To access this repository more easily, the following plugins is recommended to install.
 * [GitHub with MathJax](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima?utm_source=chrome-ntp-icon) - For better understanding some formulas in `README.md`
 * [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc?utm_source=chrome-ntp-icon) - An sidebar on the left side for better accessing other files in other folders
 
