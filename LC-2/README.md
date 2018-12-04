@@ -31,5 +31,5 @@ Explanation: 18 + 0 = 18.
 ## Solutions
 
 1. Elementary Math
-    * Append the result of the sum of each digit at the end of list
-    * Notice the carry after the result of sum
+    * Time complexity: $O(\max{(m, n)})$
+    * Space complexity: $O(\max{(m, n)})$
