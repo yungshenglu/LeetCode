@@ -23,3 +23,6 @@ Explanation: Because nums[0] + nums[1] = 2 + 7 = 9, return [0, 1].
 1. Brute Force
     * Time complexity: $O(n^2)$
     * Space complexity: $O(1)$
+2. Two-pass Approach
+    * Time complexity: $O(n)$
+    * Space complexity: $O(n)$
