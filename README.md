@@ -27,6 +27,11 @@ To access this repository more easily, the following plugins is recommended to i
 * [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc?utm_source=chrome-ntp-icon) - An sidebar on the left side for better accessing other files in other folders
 
 ---
+## Contributing
+
+You can follow the contributing process [`CONTRIBUTING.md`](https://github.com/yungshenglu/LeetCode/blob/master/CONTRIBUTING.md) to join me. I am very welcome any issue!
+
+---
 ## Contributors
 
 * [David Lu](https://github.com/yungshenglu)

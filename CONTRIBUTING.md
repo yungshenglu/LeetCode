@@ -8,7 +8,7 @@ Thanks for contributing this repository. The following steps are show how to joi
 1. Fork this repository and clone the repository you forked
     ```bash
     # Clone your fork of the repo into the current directory
-    git clone https://github.com/<your-username>/LeetCode
+    git clone https://github.com/<YOUR_USERNAME>/LeetCode
     # Navigate to the newly cloned directory
     cd <repo-name>
     ```
