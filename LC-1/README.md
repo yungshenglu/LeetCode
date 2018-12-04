@@ -26,3 +26,6 @@ Explanation: Because nums[0] + nums[1] = 2 + 7 = 9, return [0, 1].
 2. Two-pass Approach
     * Time complexity: $O(n)$
     * Space complexity: $O(n)$
+3. One-pass Approach
+    * Time complexity: $O(n)$
+    * Space complexity: $O(n)$
