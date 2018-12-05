@@ -22,15 +22,12 @@ public:
         for (int i = 0; i < B.size(); ++i)
             sumB += B[i];
         
-        set<int> result;
-        for (int i = 0; i < A.size(); ++i) {
-            for (int j = 0; j < B.size(); ++j) {
-                if (A[i] == B[j] + (sumA - sumB) / 2) {
-                    result.insert(A[i]);
-                    result.insert(B[j]);
-                }
-            }
+        int dis = (sumA - sumB) / 2;
+        set<int> result(A.begin(), A.end());
+        for (int i = 0; i < B.size(); ++i) {
+            if (result.count(B[i] + dis))
+                return vector<int>{B[i] + dis, B[i]};
         }
-        return vector<int>(result.begin(), result.end());
+        return vector<int>{};
     }
 };
