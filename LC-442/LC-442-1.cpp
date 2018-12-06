@@ -10,8 +10,7 @@ public:
      * 2. Count the frequency of each number in the list and check whether the frequency is greater than 1 in each iteration
      */
     vector<int> findDuplicates(vector<int>& nums) {
-        vector<int> hash(nums.size(), 0);
-        vector<int> result;
+        vector<int> hash(nums.size(), 0), result;
         for (int i = 0; i < nums.size(); ++i) {
             ++hash[nums[i] - 1];
             if (hash[nums[i] - 1] > 1)
