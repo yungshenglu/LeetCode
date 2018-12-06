@@ -28,3 +28,6 @@ Output: [2,3]
 2. Sorting
     * Time complexity: $O(n\log{n})$
     * Space complexity: $O(n)$
+3. Rearrange
+    * Time complexity: $O(n)$
+    * Space complexity: $O(n)$
