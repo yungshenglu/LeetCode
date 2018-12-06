@@ -24,4 +24,7 @@ Output: [2,3]
 
 1. Hash Table
     * Time complexity: $O(n)$
+    * Space complexity: $O(n + n)$
+2. Sorting
+    * Time complexity: $O(n\log{n})$
     * Space complexity: $O(n)$
