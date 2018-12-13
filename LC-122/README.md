@@ -43,3 +43,6 @@ In this case, no transaction is done, i.e. max profit = 0.
 1. Peak Valley Approach
     * Time complexity: $O(n)$
     * Space complexity: $O(1)$
+2. Peak Valley Approach in One-pass
+    * Time complexity: $O(n)$
+    * Space complexity: $O(1)$
