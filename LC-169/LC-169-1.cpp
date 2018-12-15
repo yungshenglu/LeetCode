@@ -7,7 +7,7 @@ public:
     /**
      * Concepts: Brute Approach
      */
-   int majorityElement(vector<int>& nums) {
+    int majorityElement(vector<int>& nums) {
         int majority = nums.size() / 2;
         for (int i = 0; i < nums.size(); ++i) {
             int count = 0;
