@@ -14,6 +14,9 @@ struct TreeNode {
 
 class Solution {
 public:
+    /**
+     * Concepts: Traversal in Iteration
+     */
     bool isCompleteTree(TreeNode* root) {
         int count = countNodes(root);
         return findChildNodes(root, 0, count);
