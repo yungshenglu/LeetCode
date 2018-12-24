@@ -32,7 +32,7 @@ To access this repository more easily, the following plugins is recommended to i
 You can follow the contributing process [`CONTRIBUTING.md`](https://github.com/yungshenglu/LeetCode/blob/master/CONTRIBUTING.md) to join me. I am very welcome any issue!
 
 ---
-## Contributors
+## Contributor
 
 * [David Lu](https://github.com/yungshenglu)
 

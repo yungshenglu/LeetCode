@@ -14,13 +14,13 @@ If the 'reshape' operation with given parameters is possible and legal, output t
 ## Examples
 
 ```
-Input: 
-nums = 
+Input:
+nums =
 [[1,2],
  [3,4]]
 r = 1, c = 4
 
-Output: 
+Output:
 [[1,2,3,4]]
 
 Explanation:
@@ -28,13 +28,13 @@ The row-traversing of nums is [1,2,3,4]. The new reshaped matrix is a 1 * 4 matr
 ```
 
 ```
-Input: 
-nums = 
+Input:
+nums =
 [[1,2],
  [3,4]]
 r = 2, c = 4
 
-Output: 
+Output:
 [[1,2],
  [3,4]]
 
