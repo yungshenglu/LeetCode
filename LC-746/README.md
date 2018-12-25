@@ -33,5 +33,5 @@ Cheapest is start on cost[0], and only step on 1s, skipping cost[3].
 ## Solutions
 
 1. Dynamic Programming
-    * Time complexity: $O(N)$
+    * Time complexity: $O(n)$
     * Space complexity: $O(1)$
