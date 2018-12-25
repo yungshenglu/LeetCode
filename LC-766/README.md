@@ -50,5 +50,5 @@ The diagonal "[1, 2]" has different elements.
 ## Solutions
 
 1. Compare each one with top-left element (brute)
-    * Time complexity: $O(M \times N)$
+    * Time complexity: $O(m \times n)$
     * Space complexity: $O(1)$
