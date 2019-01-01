@@ -5,7 +5,7 @@ using namespace std;
 class Solution {
 public:
     /**
-     * Concepts: Two pointers
+     * Concepts: Two Pointers
      * 1. If nums[j] != val nums[j], copy nums[j] to nums[i] and increment both indexes at the same time 
      * 2. Repeat the process until j reaches the end of the array and the new length is i
      */ 
