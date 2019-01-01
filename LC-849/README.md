@@ -42,3 +42,6 @@ This is the maximum distance possible, so the answer is 3.
 1. Next Array
     * Time complexity: $O(n)$
     * Space complexity: $O(n)$
+2. Two Pointers
+    * Time complexity: $O(n)$
+    * Space complexity: $O(1)$
