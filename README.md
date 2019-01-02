@@ -39,4 +39,4 @@ You can follow the contributing process [`CONTRIBUTING.md`](https://github.com/y
 ---
 ## License
 
-GNU GENERAL PUBLIC LICENSE Version 3
+[GNU GENERAL PUBLIC LICENSE Version 3](LICENSE)
