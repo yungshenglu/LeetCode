@@ -37,8 +37,8 @@ Since all the cards revealed are in increasing order, the answer is correct.
 ---
 ## Notes
 
-* $1 \le A.length \le 1000
-* $1 \le A[i] \le 10^6$
+* `1 <= A.length <= 1000`
+* `1 <= A[i] <= 10^6`
 * `A[i] != A[j]` for all `i != j`
 
 
