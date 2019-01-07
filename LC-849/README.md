@@ -33,7 +33,7 @@ This is the maximum distance possible, so the answer is 3.
 ---
 ## Notes
 
-* $1 \le seats.length \le 20000$
+* `1 <= seats.length <= 20000`
 * `seats` contains only 0s or 1s, at least one `0`, and at least one `1`.
 
 ---
