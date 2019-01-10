@@ -25,7 +25,6 @@ Explanation:
 * `A.length % 2 == 0`
 * `0 <= A[i] <= 1000`
 
-
 ---
 ## Solutions
 
