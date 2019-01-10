@@ -20,9 +20,9 @@ Explanation: [4,7,2,5], [2,5,4,7], [2,7,4,5] would also have been accepted.
 ---
 ## Notes
 
-* $2 \le A.length \le 20000$
+* `2 <= A.length <= 20000`
 * `A.length % 2 == 0`
-* $0 \le A[i] \le 1000$
+* `0 <= A[i] <= 1000`
 
 
 ---
