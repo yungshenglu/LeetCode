@@ -1,6 +1,6 @@
-#include <math>
+#include <cmath>
 #include <vector>
-#include <algorithms>
+#include <algorithm>
 
 #include <vector>
 
