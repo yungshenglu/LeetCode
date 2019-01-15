@@ -28,3 +28,6 @@ You need to sort [6, 4, 8, 10, 9] in ascending order to make the whole array sor
 1. Compare with Sorting Array
     * Time complexity: $O(n\log{n})$
     * Space complexity: $O(1)$
+2. Using Stack
+    * Time complexity: $O(n)$
+    * Space complexity: $O(n)$

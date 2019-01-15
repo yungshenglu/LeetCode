@@ -1,4 +1,5 @@
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -20,6 +21,6 @@ public:
                 end = max(end, i);
             }
         }
-        return ((end - start >= 0) ? (end - start + 1) : 0);
+        return ((end - start < 0) ? 0 : (end - start + 1));
     }
 };
