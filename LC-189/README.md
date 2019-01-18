@@ -36,3 +36,9 @@ rotate 2 steps to the right: [3,99,-1,-100]
 1. Extra Space Approach
     * Time complexity: $O(n)$
     * Space complexity: $O(n)$
+2. Cyclic Replacements
+    * Time complexity: $O(n)$
+    * Space complexity: $O(1)$
+3. Reverse Approach
+    * Time complexity: $O(n)$
+    * Space complexity: $O(1)$
