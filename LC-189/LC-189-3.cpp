@@ -26,5 +26,5 @@ private:
             ++start;
             --end;
         }
-    } 
+    }
 };

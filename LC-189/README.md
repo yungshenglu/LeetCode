@@ -42,3 +42,6 @@ rotate 2 steps to the right: [3,99,-1,-100]
 3. Reverse Approach
     * Time complexity: $O(n)$
     * Space complexity: $O(1)$
+4. Use Double-ended Queue
+    * Time complexity: $O(n)$
+    * Space complexity: $O(n)$
