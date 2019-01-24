@@ -5,8 +5,7 @@ using namespace std;
 class Solution {
 public:
     /**
-     * Concepts:
-     * Naive Approach
+     * Concepts: Naive Approach
      */
     string reverseString(string str) {
         string result = "";
