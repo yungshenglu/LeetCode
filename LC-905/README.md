@@ -18,8 +18,8 @@ The outputs [4,2,3,1], [2,4,1,3], and [4,2,1,3] would also be accepted.
 ---
 ## Notes
 
-* $1 \le A.length \le 5000$
-* $0 \le A[i] \le 5000$
+* `1 <= A.length <= 5000`
+* `0 <= A[i] <= 5000`
 
 ---
 ## Solutions
