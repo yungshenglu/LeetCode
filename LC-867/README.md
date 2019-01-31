@@ -22,8 +22,8 @@ Output: [[1,4],[2,5],[3,6]]
 ---
 ## Notes
 
-* $1 \le A.length \le 1000$
-* $1 \le A[0].length \le 1000$
+* `1 <= A.length <= 1000`
+* `1 <= A[0].length <= 1000`
 
 ---
 ## Solutions
