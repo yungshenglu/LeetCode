@@ -53,3 +53,6 @@ There aren't any consecutive pairs of 1's in the binary representation of 8, so 
 1. Store Indexes
     * Time complexity: $O(\log n)$
     * Space complexity: $O(\log n)$
+2. One-pass Approach
+    * Time complexity: $O(\log n)$
+    * Space complexity: $O(1)$
