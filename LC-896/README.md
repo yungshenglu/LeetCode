@@ -2,7 +2,7 @@
 
 An array is monotonic if it is either monotone increasing or monotone decreasing.
 
-An array `A` is monotone increasing if for all $i \le j$, $A[i] \le A[j]$. An array `A` is monotone decreasing if for all $i \le j$, $A[i] \ge A[j]$.
+An array `A` is monotone increasing if for all `i <= j`, `A[i] <= A[j]`. An array `A` is monotone decreasing if for all `i <= j`, `A[i] >= A[j]$`.
 
 Return true if and only if the given array `A` is monotonic.
 
@@ -39,8 +39,8 @@ Output: true
 ---
 ## Notes
 
-* $1 \le A.length \le 50000$
-* $-100000 \le A[i] \le 100000$
+* `1 <= A.length <= 50000`
+* `-100000 <= A[i] <= 100000`
 
 ---
 ## Solutions
