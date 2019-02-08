@@ -1,5 +1,5 @@
 #include <vector>
-#include <math>
+#include <cmath>
 
 using namespace std;
 
