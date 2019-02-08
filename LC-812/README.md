@@ -30,3 +30,6 @@ The five points are show in the figure below. The red triangle is the largest.
 1. Shoelace Formula
     * Time complexity: $O(n^3)$
     * Space complexity: $O(1)$
+2. Heron's Formula
+    * Time complexity: $O(n^3)$
+    * Space complexity: $O(1)$
