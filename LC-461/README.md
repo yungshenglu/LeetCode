@@ -22,7 +22,7 @@ The above arrows point to positions where the corresponding bits are different.
 ---
 ## Notes
 
-* $0 \le x, y < 231$
+* `0 <= x, y < 231`
 
 ---
 ## Solutions
