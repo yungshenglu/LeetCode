@@ -32,7 +32,7 @@ Both numbers with value 2 are both considered as second maximum.
 ---
 ## Follow Up
 
-* Could you do it without extra space and in O(n) runtime?
+* Could you do it without extra space and in $O(n)$ runtime?
 
 ---
 ## Solutions
