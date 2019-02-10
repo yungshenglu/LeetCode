@@ -7,7 +7,7 @@ public:
     /**
      * Concepts: Math Approach
      * 1. Make sure the largest number be num1
-     * 2. Insert a '0' in front of num1 for carry
+     * 2. Insert a '0' in front of num1 using for carry
      * 3. Emulate the addition operation and consider the carry bit
      */
     string addStrings(string num1, string num2) {
