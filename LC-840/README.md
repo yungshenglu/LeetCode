@@ -10,7 +10,7 @@ Given an `grid` of integers, how many $3 \times 3$ "magic square" subgrids are t
 ## Examples
 
 ```
-Input: 
+Input:
 [[4,3,8,4],
  [9,5,1,9],
  [2,7,6,2]]
