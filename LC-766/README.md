@@ -24,6 +24,7 @@ In each diagonal all elements are the same, so the answer is True.
 ```
 
 ```
+Input:
 matrix = [
   [1,2],
   [2,2]
@@ -36,9 +37,9 @@ The diagonal "[1, 2]" has different elements.
 ---
 ## Notes
 
-1. matrix will be a 2D array of integers.
-2. matrix will have a number of rows and columns in range $[1, 20]$.
-3. `matrix[i][j]` will be integers in range $[0, 99]$.
+* `matrix` will be a 2D array of integers.
+* `matrix` will have a number of rows and columns in range `[1, 20]`.
+* `matrix[i][j]` will be integers in range `[0, 99]`.
 
 ---
 ## Follow Up
