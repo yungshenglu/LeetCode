@@ -35,7 +35,7 @@ There are three ways to climb to the top.
 ## Solutions
 
 1. Dynamic Programming
-   * Time complexity: $O(n)$
+    * Time complexity: $O(n)$
     * Space complexity: $O(n)$
 2. Fibonacci Number
     * Time complexity: $O(n)$
