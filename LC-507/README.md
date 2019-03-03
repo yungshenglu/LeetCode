@@ -27,3 +27,6 @@ Explanation:
 1. Math Approach
     * Time complexity: $O(\sqrt{n})$
     * Space complexity: $O(1)$
+2. Euclid-Euler Theorem
+    * Time complexity: $O(\log{n})$
+    * Space complexity: $O(\log{1})$
