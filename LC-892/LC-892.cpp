@@ -7,7 +7,7 @@ class Solution {
 public:
     /**
      * Concepts: Square by Square
-     * 1. Each cube will has the top and the bottome surface area 2
+     * 1. Each cube will has the top and the bottom surface area 2
      * 2. Mask the surface area by the neighbot cube
      * 3. The current will contribute the extra surface area:
      *    max(grid[i][j] - neighbor[i][j], 0)
