@@ -35,7 +35,7 @@ Thanks for contributing this repository. The following steps are show how to joi
     ```
 
 ---
-## Contributors
+## Contributor
 
 * [David Lu](https://github.com/yungshenglu)
 
