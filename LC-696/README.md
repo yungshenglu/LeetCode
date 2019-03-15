@@ -37,3 +37,6 @@ There are 4 substrings: "10", "01", "10", "01" that have equal number of consecu
 1. Group By Character
     * Time complexity: $O(n)$
     * Space complexity: $O(n)$
+2. Linear Scanning
+    * Time complexity: $O(n)$
+    * Space complexity: $O(1)$
