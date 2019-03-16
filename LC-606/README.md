@@ -42,3 +42,6 @@ except we can't omit the first parenthesis pair to break the one-to-one mapping 
 1. Recursion
     * Time complexity: $O(n)$
     * Space complexity: $O(n)$
+2. Using Stack
+    * Time complexity: $O(n)$
+    * Space complexity: $O(n)$
