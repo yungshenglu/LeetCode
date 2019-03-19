@@ -50,5 +50,8 @@ Output: true
 ## Solutions
 
 1. Iteration
-    * Time complexity: $O(n)$
+    * Time complexity: $O(n \times m)$
     * Space complexity: $O(1)$
+2. Extra Space
+    * Time complexity: $O(n)$
+    * Space complexity: $O(n)$
