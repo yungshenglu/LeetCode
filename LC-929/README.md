@@ -22,14 +22,15 @@ Given a list of emails, we send one email to each address in the list.  How many
 ```
 Input: ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
 Output: 2
-Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails
+Explanation:
+"testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails
 ```
 
 ---
 ## Notes
 
-* $1 \le emails[i].length \le 100$
-* $1 \le emails.length \le 100$
+* `1 <= emails[i].length <= 100`
+* `1 <= emails.length <= 100`
 * Each `emails[i]` contains exactly one `'@'` character.
 
 ---
