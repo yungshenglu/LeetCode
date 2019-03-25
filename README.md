@@ -1,9 +1,11 @@
-# LeetCode Online Judge
+# LeetCode
 
-This repository is my personal acceptance problems record for [LeetCode](https://leetcode.com/problemset/all/). If you are interested in this repository or have any quesiton, please feel free to contact with me.
+![](res/leetcode.png)
+
+This repository is my personal accepted submissions on [LeetCode](https://leetcode.com/problemset/all/). If you are interested in this repository or have any quesiton, please feel free to contact with me.
 
 Each problem are placed in its folder which is named by the ID of the problem. The folder contains the following files.
-* `README.md` - The detail of problem.
+* `README.md` - The detail of the problem.
 * `LC-000.cpp` - My solution for this problem. Some of problem may have more than one solution and be named as `LC-000-1.cpp`, `LC-000-2.cpp` and so on respectively.
 
 ---
@@ -46,12 +48,9 @@ To access this repository more easily, the following plugins is recommended to i
 * [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc?utm_source=chrome-ntp-icon) - An sidebar on the left side for better accessing other files in other folders
 
 ---
-## Contributing
-
-You can follow the contributing process [`CONTRIBUTING.md`](https://github.com/yungshenglu/LeetCode/blob/master/CONTRIBUTING.md) to join me. I am very welcome any issue!
-
----
 ## Contributor
+
+> **NOTICE:** You can follow the contributing process [CONTRIBUTING.md](CONTRIBUTING.md) to join me. I am very welcome any issue!
 
 * [David Lu](https://github.com/yungshenglu)
 
