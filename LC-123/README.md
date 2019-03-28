@@ -4,7 +4,7 @@ Say you have an array for which the `i`-th element is the price of a given stock
 
 Design an algorithm to find the maximum profit. You may complete at most two transactions.
 
-> * Difficulty: **EASY**
+> * Difficulty: **HARD**
 
 ---
 ## Examples
