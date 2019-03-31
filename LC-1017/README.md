@@ -4,7 +4,7 @@ Given a number `N`, return a string consisting of `"0"`s and `"1"`s that represe
 
 The returned string must have no leading zeroes, unless the string is `"0"`.
 
-> * Difficulty: **EASY**
+> * Difficulty: **MEDIUM**
 
 ---
 ## Examples
