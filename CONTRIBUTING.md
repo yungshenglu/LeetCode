@@ -1,9 +1,9 @@
-# Contributing
+# How to Contribute
 
 Thanks for contributing this repository. The following steps are show how to join the contribution with us. Please read the following content before contributing. Thanks for your cooperation.
 
 ---
-## Pull requests
+## About Pull Requests
 
 1. Fork this repository and clone the repository you forked
     ```bash
