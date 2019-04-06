@@ -1,6 +1,6 @@
 # How to Contribute
 
-Thanks for contributing this repository. The following steps are show how to join the contribution with us. Please read the following content before contributing. Thanks for your cooperation.
+I'd love to accept your patches and contributions to this project. There are just a few small guidelines you need to follow. Please read the following content before contributing. Thanks for your cooperation.
 
 ---
 ## About Pull Requests
@@ -37,4 +37,4 @@ Thanks for contributing this repository. The following steps are show how to joi
 ---
 ## License
 
-GNU GENERAL PUBLIC LICENSE Version 3
+[GNU GENERAL PUBLIC LICENSE Version 3](LICENSE)
