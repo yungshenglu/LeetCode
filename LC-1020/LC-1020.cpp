@@ -7,7 +7,7 @@ public:
     /**
      * Concepts: Counting
      * 1. Compute the sum of the input array and divied it by 3 
-     * 2. Count the group whether the current of sum is the euqal-sum of three groups
+     * 2. Count the group whether the current of sum is the equal-sum of three groups
      */
     bool canThreePartsEqualSum(vector<int>& A) {
         int equalSum = 0;
