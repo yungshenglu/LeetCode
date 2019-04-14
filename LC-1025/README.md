@@ -38,3 +38,6 @@ Alice chooses 1, Bob chooses 1, and Alice has no more moves.
 1. Iteration
     * Time complexity: $O(n)$
     * Space complexity: $O(1)$
+2. Even-odd
+    * Time complexity: $O(1)$
+    * Space complexity: $O(1)$
