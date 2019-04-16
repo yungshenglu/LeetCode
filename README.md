@@ -1,6 +1,6 @@
 # LeetCode
 
-![](res/leetcode.png)
+![](res/img/leetcode.png)
 
 This repository is my personal accepted submissions on [LeetCode](https://leetcode.com/problemset/all/). If you are interested in this repository or have any quesiton, please feel free to contact with me.
 
