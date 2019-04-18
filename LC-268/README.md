@@ -28,3 +28,6 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
 1. Use XOR in bit operation to find out the missing bit
     * Time complexity: $O(n)$
     * Space complexity: $O(1)$
+2. Difference of Sum
+    * Time complexity: $O(n)$
+    * Space complexity: $O(1)$
