@@ -5,25 +5,18 @@ using namespace std;
 class Solution {
 public:
     /**
-     * Concepts: Iteration
-     * Use left-shift and or operations in each iteration to add the current bit into accumulator
-     * If the N_i can be divisible by 5, then let the accumulator be 0; otherwise may be overflow
+     * Concepts: Partition
      */
-    vector<bool> prefixesDivBy5(vector<int>& A) {
-        if (A.size() == 0)
-            return vector<bool>{};
-        
-        vector<bool> answer;
-        unsigned long long int curr = 0;
-        for (int i = 0; i < A.size(); ++i) {
-            curr = (curr << 1) | A[i];
-            if (curr % 5 == 0) {
-                answer.push_back(true);
-                curr = 0;
-            }
-            else
-                answer.push_back(false);
-        }
-        return answer;
+    int twoCitySchedCost(vector<vector<int>>& costs) {
+        int n = costs.size() / 2, minCost = 0;
+        nth_element(costs.begin(), costs.begin() + n, costs.end(), compare);
+        for (int i = 0; i < 2 * n; ++i)
+            minCost += (i < n) ? costs[i][0] : costs[i][1];
+        return minCost;
+    }
+    
+private:
+    static bool compare(vector<int> a, vector<int> b) {
+        return (a[0] - a[1] < b[0] - b[1]);
     }
 };

@@ -1,8 +1,8 @@
-# LC-1029 - Binary Prefix Divisible By 5
+# LC-1029 - Two City Scheduling
 
-Given an array `A` of `0`s and `1`s, consider `N_i`: the `i`-th subarray from `A[0]` to `A[i]` interpreted as a binary number (from most-significant-bit to least-significant-bit.)
+There are `2N` people a company is planning to interview. The cost of flying the `i`-th person to city `A` is `costs[i][0]`, and the cost of flying the `i`-th person to city `B` is `costs[i][1]`.
 
-Return a list of booleans answer, where answer `[i]` is true if and only if `N_i` is divisible by `5`.
+Return the minimum cost to fly every person to a city such that exactly `N` people arrive in each city.
 
 > * Difficulty: **EASY**
 
@@ -10,36 +10,27 @@ Return a list of booleans answer, where answer `[i]` is true if and only if `N_i
 ## Examples
 
 ```
-Input: [0,1,1]
-Output: [true,false,false]
+Input: [[10,20],[30,200],[400,50],[30,20]]
+Output: 110
 Explanation:
-The input numbers in binary are 0, 01, 011; which are 0, 1, and 3 in base-10.  Only the first number is divisible by 5, so answer[0] is true.
-```
+The first person goes to city A for a cost of 10.
+The second person goes to city A for a cost of 30.
+The third person goes to city B for a cost of 50.
+The fourth person goes to city B for a cost of 20.
 
-```
-Input: [1,1,1]
-Output: [false,false,false]
-```
-
-```
-Input: [0,1,1,1,1,1]
-Output: [true,false,false,false,true,false]
-```
-
-```
-Input: [1,1,1,0,1]
-Output: [false,false,false,false,false]
+The total minimum cost is 10 + 30 + 50 + 20 = 110 to have half the people interviewing in each city.
 ```
 
 ---
 ## Notes
 
-* `1 <= A.length <= 30000`
-* `A[i]` is `0` or `1`.
+* `1 <= costs.length <= 100`
+* It is guaranteed that `costs.length` is even.
+* `1 <= costs[i][0], costs[i][1] <= 1000`
 
 ---
 ## Solutions
 
-1. Iteration
+1. Partition
     * Time complexity: $O(n)$
-    * Space complexity: $O(n)$
+    * Space complexity: $O(1)$
