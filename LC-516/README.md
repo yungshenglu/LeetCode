@@ -32,3 +32,6 @@ One possible longest palindromic subsequence is "bb".
 1. LCS-like Method
     * Time complexity: $O(n^2)$
     * Space complexity: $O(n)$
+2. Dynamic Programming
+    * Time complexity: $O(n^2)$
+    * Space complexity: $O(n)$

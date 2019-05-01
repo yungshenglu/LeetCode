@@ -28,6 +28,9 @@ Output: 23
 ---
 ## Solutions
 
-1. DFS 1
+1. DFS-1
     * Time complexity: $O(n)$
+    * Space complexity: $O(h)$
+2. DFS-2
+    * Time complexity: $O(\log{n})$
     * Space complexity: $O(h)$
