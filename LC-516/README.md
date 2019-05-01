@@ -22,11 +22,6 @@ One possible longest palindromic subsequence is "bb".
 ```
 
 ---
-## Notes
-
-* The input will be a non-empty word consisting of uppercase and lowercase latin letters.
-
----
 ## Solutions
 
 1. LCS-like Method
