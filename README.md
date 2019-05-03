@@ -39,6 +39,8 @@ Each problem are placed in its folder which is named by the ID of the problem. T
     * [Recursion](https://leetcode.com/tag/recursion/)
     * [Sort](https://leetcode.com/tag/sort/)
     * [Topological Sort](https://leetcode.com/tag/topological-sort/)
+* Database
+    * [LC-182](LC-182/)
 
 ---
 ## Useful Plugins
