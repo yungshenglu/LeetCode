@@ -15,7 +15,7 @@ struct TreeNode {
 class Solution {
 public:
     /**
-     * Concepts: DFS
+     * Concepts: DFS in Recursion
      */
     TreeNode* searchBST(TreeNode* root, int val) {
         if (root == NULL || root->val == val)

@@ -15,7 +15,7 @@ struct TreeNode {
 class Solution {
 public:
     /**
-     * Concepts: DFS
+     * Concepts: DFS in Iteration
      */
     TreeNode* searchBST(TreeNode* root, int val) {
         TreeNode* curr = root;
