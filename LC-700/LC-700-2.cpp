@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * Definition for singly-linked list.
+ * Definition for a binary tree node.
  */ 
 struct TreeNode {
     int val;
