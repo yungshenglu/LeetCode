@@ -42,6 +42,9 @@ Output: NULL
 ---
 ## Solutions
 
-1. DFS
+1. DFS in Iteration
+    * Time complexity: $O(\log{n})$
+    * Space complexity: $O(1)$
+2. DFS in Recursion
     * Time complexity: $O(\log{n})$
     * Space complexity: $O(1)$
