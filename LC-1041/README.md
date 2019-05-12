@@ -25,14 +25,14 @@ When repeating these instructions, the robot remains in the circle of radius 2 c
 ```
 Input: "GG"
 Output: false
-Explanation: 
+Explanation:
 The robot moves north indefinetely.
 ```
 
 ```
 Input: "GL"
 Output: true
-Explanation: 
+Explanation:
 The robot moves from (0, 0) -> (0, 1) -> (-1, 1) -> (-1, 0) -> (0, 0) -> ...
 ```
 
