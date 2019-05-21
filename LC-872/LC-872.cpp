@@ -15,7 +15,7 @@ struct TreeNode {
 class Solution {
 public:
     /**
-     * Concepts: Depth-First Searching (DFS)
+     * Concepts: Depth-First Search (DFS)
      */
     bool leafSimilar(TreeNode* root1, TreeNode* root2) {
         vector<int> leaves1, leaves2;

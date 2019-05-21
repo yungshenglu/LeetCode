@@ -32,6 +32,6 @@ Output: true
 ---
 ## Solutions
 
-1. Depth-First Searching (DFS)
+1. Depth-First Search (DFS)
     * Time complexity: $O(T_1 + T_2)$
     * Space complexity: $O(T_1 + T_2)$
