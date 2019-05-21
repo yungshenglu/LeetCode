@@ -4,7 +4,7 @@
 using namespace std;
 
 /**
- * Definition for a binary tree node.
+ * Definition for a Node.
  */
 class Node {
 public:
