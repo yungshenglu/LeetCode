@@ -30,7 +30,7 @@ Output: 1
 ---
 ## Notes
 
-* Length of the array will not exceed 10,000.
+* Length of the array will not exceed `10000`.
 
 ---
 ## Solutions
