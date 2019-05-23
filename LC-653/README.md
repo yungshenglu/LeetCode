@@ -39,3 +39,6 @@ Output: False
 1. Hash Set
     * Time complexity: $O(n)$
     * Space complexity: $O(n)$
+2. Breadth-First Search (BFS) and Hash Set
+    * Time complexity: $O(n)$
+    * Space complexity: $O(n)$
