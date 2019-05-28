@@ -16,7 +16,7 @@ struct TreeNode {
 class Solution {
 public:
     /**
-     * Concepts: Post-order Traversal
+     * Concepts: Depth-First Search (DFS)
      */
     int findTilt(TreeNode* root) {
         int tilt = 0;
