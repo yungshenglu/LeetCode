@@ -1,3 +1,4 @@
+#include <cstdlib>
 #include <string>
 
 using namespace std;
@@ -19,18 +20,19 @@ public:
      */
     int findTilt(TreeNode* root) {
         int tilt = 0;
-        postorder(root, tilt);
+        DFS(root, tilt);
         return tilt;
     }
     
-    int postorder(TreeNode* node, int& tilt) {
+    int DFS(TreeNode* node, int& tilt) {
         if (!node)
             return 0;
+        
         int left = 0, right = 0;
         if (node->left)
-            left = postorder(node->left, tilt);
+            left = DFS(node->left, tilt);
         if (node->right)
-            right = postorder(node->right, tilt);
+            right = DFS(node->right, tilt);
         tilt += abs(left - right);
         return (left + right + node->val);
     }

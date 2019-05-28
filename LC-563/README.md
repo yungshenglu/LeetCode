@@ -33,6 +33,6 @@ Tilt of binary tree : 0 + 0 + 1 = 1
 ---
 ## Solutions
 
-1. Post-order Traversal
+1. Depth-First Search (DFS)
     * Time complexity: $O(n)$
     * Space complexity: $O(T)$
