@@ -43,6 +43,11 @@ Each problem are placed in its folder which is named by the ID of the problem. T
     * [LC-182](LC-182/)
 
 ---
+## Notes
+
+* [LC-530](LC-530/) and [LC-783](LC-783/) are identical problem.
+
+---
 ## Useful Plugins
 
 To access this repository more easily, the following plugins is recommended to install.
