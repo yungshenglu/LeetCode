@@ -18,7 +18,7 @@ public:
     /**
      * Concepts: Breadth-First Search (BFS) and Hash Set
      */
-     bool findTarget(TreeNode* root, int k) {
+    bool findTarget(TreeNode* root, int k) {
         set<int> diff;
         queue<TreeNode*> que;
         que.push(root);
