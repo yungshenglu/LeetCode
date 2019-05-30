@@ -26,8 +26,8 @@ Cheapest is start on cost[0], and only step on 1s, skipping cost[3].
 ---
 ## Notes
 
-1. `cost` will have a length in the range $[2, 1000]$.
-2. Every `cost[i]` will be an integer in the range $[0, 999]$.
+* `cost` will have a length in the range `[2, 1000]`.
+* Every `cost[i]` will be an integer in the range `[0, 999]`.
 
 ---
 ## Solutions
