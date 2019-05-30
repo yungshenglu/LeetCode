@@ -38,3 +38,6 @@ There is no index that satisfies the conditions in the problem statement.
 1. Brute Force
     * Time complexity: $O(n)$
     * Space complexity: $O(n)$
+2. Prefix Sum
+    * Time complexity: $O(n)$
+    * Space complexity: $O(1)$
