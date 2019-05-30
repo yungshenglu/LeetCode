@@ -1,8 +1,8 @@
 # LC-1013 - Partition Array Into Three Parts With Equal Sum
 
-Given an array `A` of integers, return `true` if and only if we can partition the array into three **non-empty** parts with equal sums.
+Given an array `A` of integers, return true if and only if we can partition the array into three **non-empty** parts with equal sums.
 
-Formally, we can partition the array if we can find indexes `i + 1 < j` with `(A[0] + A[1] + ... + A[i] == A[i+1] + A[i+2] + ... + A[j-1] == A[j] + A[j-1] + ... + A[A.length - 1])`.
+Formally, we can partition the array if we can find indexes `i + 1 < j` with (`A[0] + A[1] + ... + A[i] == A[i+1] + A[i+2] + ... + A[j-1] == A[j] + A[j-1] + ... + A[A.length - 1]`).
 
 > * Difficulty: **EASY**
 
@@ -37,6 +37,6 @@ Explanation:
 ---
 ## Solutions
 
-1. Brute Force
+1. Counting
     * Time complexity: $O(n)$
     * Space complexity: $O(1)$
