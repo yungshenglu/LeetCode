@@ -16,7 +16,6 @@ public:
         return result;
     }
     
-private:
     bool selfDividing(int num) {
         int x = num;
         while (x) {
