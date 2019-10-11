@@ -41,6 +41,7 @@ Each problem are placed in its folder which is named by the ID of the problem. T
     * [Topological Sort](https://leetcode.com/tag/topological-sort/)
 * Database
     * [LC-182](LC-182/)
+    * [LC-595](LC-595/)
 
 ---
 ## Notes
