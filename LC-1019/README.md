@@ -1,4 +1,4 @@
-# LC-1019 - Next Greater Node In Linked List
+# LC-1019 - Next Greater Node in Linked List
 
 We are given a linked list with `head` as the first node. Let's number the nodes in the list: `node_1`, `node_2`, `node_3`, ... etc.
 
