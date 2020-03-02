@@ -1,4 +1,4 @@
-# LC-840 - Magic Squares In Grid
+# LC-840 - Magic Squares in Grid
 
 A $3 \times 3$ magic square is a $3 \times 3$ grid filled with distinct numbers **from 1 to 9** such that each row, column, and both diagonals all have the same sum.
 
