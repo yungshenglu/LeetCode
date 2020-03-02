@@ -1,4 +1,4 @@
-# LC-717 - 1-bit and 2-bit Characters
+# LC-717 - 1-Bit and 2-Bit Characters
 
 We have two special characters. The first character can be represented by one bit `0`. The second character can be represented by two bits (`10` or `11`).
 
