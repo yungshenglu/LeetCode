@@ -12,7 +12,7 @@ var twoSum = function(nums, target) {
      * 2. If not found, then insert into hash table
      */
 
-    if (nums == null || nums.length == 0) {
+    if (nums == null || nums.length === 0) {
         return nums;
     }
     
