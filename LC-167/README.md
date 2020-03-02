@@ -1,4 +1,4 @@
-# LC-167 - Two Sum II - Input array is sorted
+# LC-167 - Two Sum II - Input Array is Sorted
 
 Given an array of integers that is already **sorted in ascending order**, find two numbers such that they add up to a specific target number.
 
