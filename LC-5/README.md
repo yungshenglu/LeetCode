@@ -30,3 +30,6 @@ Output: "bb"
 1. Brute Force
     * Time complexity: $O(n^2)$
     * Space complexity: $O(1)$
+2. Manacher's algorithm
+    * Time complexity: $O(n^2)$
+    * Space complexity: $O(n^2)$
