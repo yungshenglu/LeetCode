@@ -22,7 +22,7 @@ public:
             ref[2 * i + 1] = s[i];
         
         // Manacher's algorithm
-        int maxRadius = 1, maxIndex = 0;
+        int maxRadius = 1, maxIndex = 1;
         for (int i = 1; i < ref.length() - 1; ++i) {
             int radius = 1;
             while (i - radius >= 0 && i + radius < ref.length() && ref[i - radius] == ref[i + radius])
