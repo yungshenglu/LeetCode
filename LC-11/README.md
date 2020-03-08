@@ -27,3 +27,6 @@ Output: 49
 1. Brute Force
     * Time complexity: $O(n^2)$
     * Space complexity: $O(1)$
+2. Two Pointers
+    * Time complexity: $O(n)$
+    * Space complexity: $O(1)$
