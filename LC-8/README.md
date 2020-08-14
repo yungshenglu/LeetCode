@@ -10,6 +10,8 @@ If the first sequence of non-whitespace characters in `str` is not a valid integ
 
 If no valid conversion could be performed, a zero value is returned.
 
+> * Difficulty: **MEDIUM**
+
 ---
 ## Examples
 
