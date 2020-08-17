@@ -3,6 +3,10 @@
  * @return {number}
  */
 var numIdenticalPairs = function (nums) {
+  /**
+   * Concepts: Use ordered-map to count each identical number in array
+   */
+
   let count = {}
   for (let i = 0; i < nums.length; ++i) {
     count[nums[i]] = (count[nums[i]] || 0) + 1
