@@ -20,7 +20,7 @@ public:
     }
 
 private:
-    bool static compare(vector<int> a, vector<int> b) {
+    static bool compare(vector<int> a, vector<int> b) {
         double d1 = sqrt(pow(abs(a[0]), 2) + pow(abs(a[1]), 2));
         double d2 = sqrt(pow(abs(b[0]), 2) + pow(abs(b[1]), 2));
         if (d1 < d2)

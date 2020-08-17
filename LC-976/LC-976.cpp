@@ -31,7 +31,7 @@ public:
     }
 
 private:
-    bool static compare(int a, int b) {
+    static bool compare(int a, int b) {
         if (a > b)
             return true;
         return false;
