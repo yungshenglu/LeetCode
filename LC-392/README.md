@@ -42,3 +42,9 @@ Special thanks to @pbrother for adding this problem and creating all test cases.
 1. Naive Approach
     * Time complexity: $O(n)$
     * Space complexity: $O(1)$
+2. Use stack
+    * Time complexity: $O(n)$
+    * Space complexity: $O(n)$
+3. Recursive
+    * Time complexity: $O(n)$
+    * Space complexity: $O(1)$

@@ -7,6 +7,7 @@ var isSubsequence = function (s, t) {
   /**
    * Concepts: Naive Approach
    */
+
   let sLen = s.length,
     tLen = t.length
   if (sLen === 0) return true
