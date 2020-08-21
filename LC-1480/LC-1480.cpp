@@ -8,6 +8,8 @@ public:
      * Concepts: Get the sum from previous sum and current number
      */
     vector<int> runningSum(vector<int>& nums) {
+        if (nums.size() == 0) return vector<int> {};
+
         vector<int> sums(nums.size());
         sums[0] = nums[0];
         
