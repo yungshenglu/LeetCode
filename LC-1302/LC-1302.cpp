@@ -11,9 +11,9 @@
  */
 
 struct Item {
-    int value;
+    int level;
     TreeNode* node;
-    Item(TreeNode* _node, int _value): node(_node), value(_value) {};
+    Item(TreeNode* _node, int _level): node(_node), level(_level) {};
 };
 
 
@@ -28,12 +28,12 @@ public:
         int maxLevel = 1;
         unordered_map<int, int> bucket;
         stack<Item> stk;
-        stk.push(Item(root, 1));
+        stk.push(Item(root, maxLevel));
         while (!stk.empty()) {
             Item item = stk.top();
             stk.pop();
             TreeNode* node = item.node;
-            int level = item.value;
+            int level = item.level;
             if (!node->left && !node->right) {
                 if (bucket.find(level) != bucket.end())
                     bucket[level] += item.node->val;
