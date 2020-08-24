@@ -24,8 +24,7 @@ public:
      * Concepts: BFS in Iteration
      */
     int maxDepth(Node* root) {
-        if (!root)
-            return 0;
+        if (!root) return 0;
         
         queue<Node*> que;
         que.push(root);

@@ -18,16 +18,16 @@ public:
      * Concepts: Pre-order Traversal
      */
     int sumOfLeftLeaves(TreeNode* root) {
-        if (!root)
-            return 0;
+        if (!root) return 0;
+
         int sum = 0;
         preorder(root, sum);
         return sum;
     }
     
     void preorder(TreeNode* node, int& sum) {
-        if (!node)
-            return;
+        if (!node) return;
+        
         if (node->left) {
             if (!node->left->left && !node->left->right)
                 sum += node->left->val;

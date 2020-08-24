@@ -24,8 +24,8 @@ public:
      * Concepts: DFS in Recursion
      */
     vector<int> postorder(Node* root) {
-        if (!root)
-            return {};
+        if (!root) return {};
+        
         vector<int> order;
         traversal(root, order);
         reverse(order.begin(), order.end());

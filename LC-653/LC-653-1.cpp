@@ -25,8 +25,7 @@ public:
     }
     
     bool find(TreeNode* node, int k, set<int>& diff) {
-        if (!node)
-            return false;
+        if (!node) return false;
 
         if (diff.find(k - node->val) != diff.end())
             return true;

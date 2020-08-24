@@ -24,8 +24,7 @@ public:
      * Concepts: DFS in Iteration
      */
     vector<int> postorder(Node* root) {
-        if (!root)
-            return {};
+        if (!root) return {};
         
         stack<Node*> sta;
         sta.push(root);

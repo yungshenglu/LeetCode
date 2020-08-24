@@ -19,8 +19,7 @@ public:
      * Concepts: Inorder Traversal with Relinking
      */
     TreeNode* increasingBST(TreeNode* root) {
-        if (!root)
-            return NULL;
+        if (!root) return NULL;
         
         TreeNode* newRoot = new TreeNode(0);
         TreeNode* curr = newRoot;
@@ -29,8 +28,7 @@ public:
     }
     
     void inorder(TreeNode* node, TreeNode*& curr) {
-        if (!node)
-            return;
+        if (!node) return;
         
         inorder(node->left, curr);
         node->left = NULL;

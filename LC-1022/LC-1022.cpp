@@ -25,8 +25,7 @@ public:
      * Concepts: Depth-First Search (DFS)
      */
     int sumRootToLeaf(TreeNode* root) {
-        if (!root)
-            return 0;
+        if (!root) return 0;
         
         stack<Item> stk;
         stk.push(Item(root, 0));

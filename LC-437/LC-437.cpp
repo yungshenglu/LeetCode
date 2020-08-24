@@ -18,8 +18,7 @@ public:
      * Concepts: Depth-First Search (DFS)
      */
     int pathSum(TreeNode* root, int sum) {
-        if (!root)
-            return 0;
+        if (!root) return 0;
         return DFS(root, sum, 0) + pathSum(root->left, sum) + pathSum(root->right, sum);
     }
     

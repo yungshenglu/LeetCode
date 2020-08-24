@@ -25,8 +25,7 @@ public:
     }
     
     void DFS(TreeNode* node, vector<string>& paths, string path) {
-        if (!node)
-            return;
+        if (!node) return;
         
         path = path + to_string(node->val);
         if (!node->left && !node->right)

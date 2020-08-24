@@ -25,8 +25,7 @@ public:
     }
     
     void DFS(TreeNode* node, vector<int>& leaves) {
-        if (!node)
-            return;
+        if (!node) return;
         
         if (!node->left && !node->right)
             leaves.push_back(node->val);

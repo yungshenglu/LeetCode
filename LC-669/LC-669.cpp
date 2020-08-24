@@ -18,8 +18,7 @@ public:
      * Concepts: Recursion
      */
     TreeNode* trimBST(TreeNode* root, int L, int R) {
-        if (!root)
-            return root;
+        if (!root) return root;
         
         if (root->val > R)
             return trimBST(root->left, L, R);

@@ -23,8 +23,7 @@ public:
      * Concepts: DFS in Recursion
      */
     vector<int> preorder(Node* root) {
-        if (!root)
-            return {};
+        if (!root) return {};
         
         vector<int> order;
         traversal(root, order);

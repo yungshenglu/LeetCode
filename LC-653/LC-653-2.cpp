@@ -25,8 +25,7 @@ public:
         while (!que.empty()) {
             TreeNode* node = que.front();
             que.pop();
-            if (!node)
-                continue;
+            if (!node) continue;
             if (diff.find(k - node->val) != diff.end())
                 return true;
             diff.insert(node->val);

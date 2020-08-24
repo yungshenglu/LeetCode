@@ -25,8 +25,7 @@ public:
     }
     
     int DFS(TreeNode* node, int& tilt) {
-        if (!node)
-            return 0;
+        if (!node) return 0;
         
         int left = 0, right = 0;
         if (node->left)

@@ -18,8 +18,7 @@ public:
      * Concepts: Recursion
      */
     TreeNode* invertTree(TreeNode* root) {
-        if (!root)
-            return NULL;
+        if (!root) return NULL;
         
         TreeNode* right = invertTree(root->left);
         TreeNode* left = invertTree(root->right);

@@ -26,8 +26,7 @@ public:
         while (!que.empty()) {
             TreeNode* node = que.front();
             que.pop();
-            if (!node)
-                continue;
+            if (!node) continue;
             min1 = min(min1, node->val);
             if (node->val > min1 && node->val < min2)
                 min2 = node->val;

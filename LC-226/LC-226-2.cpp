@@ -18,8 +18,7 @@ public:
      * Concepts: Iteration
      */
     TreeNode* invertTree(TreeNode* root) {
-        if (!root)
-            return NULL;
+        if (!root) return NULL;
         
         queue<TreeNode*> que;
         que.push(root);

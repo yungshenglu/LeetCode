@@ -19,8 +19,7 @@ public:
      * Concepts: Inorder Traversal
      */
     TreeNode* increasingBST(TreeNode* root) {
-        if (!root)
-            return NULL;
+        if (!root) return NULL;
             
         vector<int> elements;
         inorder(root, elements);
@@ -36,8 +35,7 @@ public:
     }
     
     void inorder(TreeNode* node, vector<int>& elements) {
-        if (!node)
-            return;
+        if (!node) return;
         inorder(node->left, elements);
         elements.push_back(node->val);
         inorder(node->right, elements);
