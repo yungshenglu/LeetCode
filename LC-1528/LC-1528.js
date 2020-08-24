@@ -19,9 +19,7 @@ var restoreString = function (s, indices) {
   }
 
   // Sorting
-  pairs.sort(function (a, b) {
-    return a['idx'] - b['idx']
-  })
+  pairs.sort((a, b) => a['idx'] - b['idx'])
 
   // Concatenation
   let result = ''
