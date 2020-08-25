@@ -44,4 +44,4 @@ function sumEvenGrandparent(root: TreeNode | null): number {
     }
     
     return sums;
-};
+}
