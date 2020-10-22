@@ -17,7 +17,7 @@ var getDecimalValue = function (head) {
     
     let val = 0, curr = head;
     while (curr !== null) {
-        val = val * 2 + curr.val;
+        val = val << 1 | curr.val;
         curr = curr.next
     }
     return val;

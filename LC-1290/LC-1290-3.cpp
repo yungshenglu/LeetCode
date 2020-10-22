@@ -16,8 +16,8 @@ class Solution
 {
 public:
     /**
-     * Concepts: Arithmetic Approach
-     * Formula: num = num * 2 + x
+     * Concepts: Bitwise Approach
+     * Formula: num = num << 1 | x
      */
     int getDecimalValue(ListNode *head)
     {
@@ -25,7 +25,7 @@ public:
         ListNode *curr = head;
         while (curr != nullptr)
         {
-            val = val * 2 + curr->val;
+            val = val << 1 | curr->val;
             curr = curr->next;
         }
         return val;
