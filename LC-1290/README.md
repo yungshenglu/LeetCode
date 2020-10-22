@@ -40,15 +40,18 @@ Output: 0
 ## Notes
 
 * The Linked List is not empty.
-* Number of nodes will not exceed 30.
+* Number of nodes will not exceed `30`.
 * Each node's value is either `0` or `1`.
 
 ---
 ## Solutions
 
-1. Arithmetic Approach
+1. Recursive
+    * Time complexity:
+    * Space complexity: $O(1)$
+2. Arithmetic Approach
     * Time complexity: $O(n)$
     * Space complexity: $O(1)$
-2. Bitwise Approach
+3. Bitwise Approach
     * Time complexity: $O(n)$
     * Space complexity: $O(1)$
