@@ -45,5 +45,5 @@ Output: [0]
 ## Solutions
 
 1. Breadth-First Search (BFS)
-  - Time complexity:
-  - Space complexity:
+  - Time complexity: $O(V + E)$
+  - Space complexity: $O(V * E)$

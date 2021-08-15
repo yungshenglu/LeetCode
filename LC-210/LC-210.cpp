@@ -38,7 +38,7 @@ public:
                 }
             }
         }
-        
+
         if (order.size() == numCourses) {
             return order;
         }
