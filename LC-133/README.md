@@ -71,6 +71,6 @@ Output: [[2],[1]]
 ---
 ## Solutions
 
-1. BFS
+1. Breadth-First Search (BFS)
     - Time complexity: $O(V + E)$
     - Space complexity: $O(V * E)$

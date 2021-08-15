@@ -28,6 +28,9 @@ public:
 
 class Solution {
 public:
+    /**
+     * Concepts: BFS
+     */
     Node* BFS(Node* node, map<Node*, Node*> graph) {
         if (!node) return NULL;
 
