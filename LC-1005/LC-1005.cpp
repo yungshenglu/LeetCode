@@ -12,7 +12,7 @@ public:
      * 4. If there still have K (i.e., K > 0), determine whether the K is odd or even
      *    - If K is odd, then only change the first element into negative
      *    - If K is even, then no change
-     * 5. Sum up the array 
+     * 5. Sum up the array
      */
     int largestSumAfterKNegations(vector<int>& A, int K) {
         int i = 0, sum = 0;
