@@ -39,7 +39,7 @@ public:
         graph[node] = new Node(node->val);
 
         while (!que.empty()) {
-            Node *tmp = que.front();
+            Node* tmp = que.front();
             que.pop();
 
             vector<Node*> neighbors = tmp->neighbors;

@@ -32,13 +32,13 @@ public:
 
             order.push_back(tmp);
             for (int i = 0; i < graph[tmp].size(); ++i) {
-                degree[graph[tmp][i]]--;
-                if (degree[graph[tmp][i]]==0) {
+                --degree[graph[tmp][i]];
+                if (degree[graph[tmp][i]] == 0) {
                     que.push(graph[tmp][i]);
                 }
             }
         }
-        
+
         if (order.size() == numCourses) {
             return order;
         }

@@ -1,3 +1,8 @@
+#include <string>
+#include <vector>
+
+using namespace std;
+
 class Solution {
 public:
     /**
@@ -6,14 +11,14 @@ public:
      * 2. Sorting and concatenate to new string
      */
     string restoreString(string s, vector<int>& indices) {
-        vector<pair<char, int>> pairs;
+        vector< pair<char, int> > pairs;
         for (int i = 0; i < indices.size(); ++i) {
             pairs.push_back(make_pair(s[i], indices[i]));
         }
-        
+
         // Sorting
         sort(pairs.begin(), pairs.end(), compare);
-        
+
         // Concatenation
         string result = "";
         for (int i = 0; i < pairs.size(); ++i) {

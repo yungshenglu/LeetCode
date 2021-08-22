@@ -17,7 +17,7 @@ public:
         vector< vector<int> > DP(n, vector<int>(n, 0));
         for (int i = 0; i < n; ++i)
             DP[i][i] = piles[i];
-        
+
         for (int d = 1; d < n; ++d) {
             for (int i = 0; i < n - d; ++i)
                 DP[i][i + d] = max(piles[i] - DP[i + 1][i + d], piles[i + d] - DP[i][i + d - 1]);
