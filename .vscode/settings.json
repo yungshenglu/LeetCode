@@ -3,6 +3,7 @@
         "algorithm": "cpp",
         "__config": "cpp",
         "__nullptr": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "string": "cpp"
     }
 }
