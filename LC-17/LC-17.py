@@ -2,7 +2,7 @@ class Solution:
     '''
     Concepts: Recursion
     1. Define letter array for all digits
-    2. Recursive combine every letters in first digit
+    2. Recursive combine every letter in the first digit
     '''
     def letterCombinations(self, digits: str) -> List[str]:
         n = len(digits)
