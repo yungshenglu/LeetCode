@@ -34,5 +34,7 @@ Output: true
 ## Solutions
 
 * Use Hash Table and Set
-    * Time complexity: $O()$
-    * Space complexity: $O()$
+    * Time complexity: O(n)
+        `The first for loop has O(n) time complexity. In the worst case, map 'occur' has n elements, thus, total time complexity = O(n) + O(n) = O(n)`
+    * Space complexity: O(n)
+        `Extra space required for map and set in worst case would contain all the elements i.e. O(n)`
